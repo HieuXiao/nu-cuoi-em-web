@@ -1,0 +1,10 @@
+# Frontend-specific (see root .gitignore for shared rules)
+node_modules/
+dist/
+dist-ssr/
+.vite/
+coverage/
+*.local
+.env
+.env.*
+!.env.example

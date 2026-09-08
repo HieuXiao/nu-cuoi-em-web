@@ -1,0 +1,17 @@
+# Backend-specific (see root .gitignore for shared rules)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+staticfiles/
+media/
+mediafiles/
+*.sqlite3
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+.env
+.env.*
+!.env.example
