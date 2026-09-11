@@ -38,6 +38,18 @@ cp frontend/.env.example frontend/.env
 make dev            # chạy song song frontend + backend
 ```
 
+## Tài liệu
+
+| Tài liệu | Nội dung |
+|----------|----------|
+| [`ARCHITECTURE.md`](DOC/technical/ARCHITECTURE.md) | Kiến trúc tổng thể, luồng nghiệp vụ, quyết định kỹ thuật |
+| [`DATABASE_SCHEMA.md`](DOC/technical/DATABASE_SCHEMA.md) | Cấu trúc các collection MongoDB, index |
+| [`API.md`](DOC/technical/API.md) | Hợp đồng REST API giữa frontend và backend |
+| [`SETUP.md`](DOC/technical/SETUP.md) | Cài đặt môi trường phát triển |
+| [`DEPLOYMENT.md`](DOC/technical/DEPLOYMENT.md) | Triển khai VPS, CI/CD, sao lưu, vận hành |
+| [`Cau-truc-Repository.md`](DOC/project/Cau-truc-Repository.md) | Vai trò từng thư mục, quy ước đặt code, việc cần làm trước khi code |
+| [`Phan-tich-chi-phi-van-hanh.md`](DOC/project/Phan-tich-chi-phi-van-hanh.md) | Chi phí vận hành, giới hạn free tier |
+
 ## License
 
 [MIT](LICENSE) © 2025 Nụ Cười Em
